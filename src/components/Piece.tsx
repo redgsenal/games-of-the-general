@@ -1,13 +1,5 @@
-interface PieceProps {
-  name: string;
-  value: number;
-  position: {
-    x: number;
-    y: number;
-  };
-}
-const Piece = () => {
-  return <div>Piece</div>;
+const Piece = (pieceProps: PieceProps) => {
+  return <>{console.log(pieceProps)}</>;
 };
 
 export default Piece;
