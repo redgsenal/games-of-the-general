@@ -1,9 +1,28 @@
 .game-board{
     border: 5px solid red;
     padding: 5px;
-    min-width: 600px;
-    min-height: 600px;
-    display: block;
+    width: 1200px;
+    height: 600px;
     margin: auto;
-    
 }
+
+.piece-square{
+    width: 100px;
+    height: 100px;
+    float:left;
+}
+
+.piece-square .bg-black{
+    background-color: #0000;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.piece-square .bg-white{
+    background-color: #ffff;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
