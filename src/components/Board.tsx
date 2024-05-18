@@ -61,10 +61,12 @@ const Board = () => {
 
   return (
     <>
-      <table className="game-board">
-        <tr>{COLHEADERS}</tr>
-        {ROWITEMS}
-      </table>
+      <div className="container">
+        <table className="game-board">
+          <tr>{COLHEADERS}</tr>
+          {ROWITEMS}
+        </table>
+      </div>
     </>
   );
 };

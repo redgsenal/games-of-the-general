@@ -1,15 +1,22 @@
 .game-board{
     border: 5px solid red;
     padding: 5px;
-    width: 900px;
-    height: 800px;
+
+    position: fixed;
+    inset: 0px;
+    width: 12rem;
+    height: 5rem;
+    max-width: 100vw;
+    max-height: 100dvh;
     margin: auto;
 }
-
+.game-board tr {
+    width: 100%;
+}
 .piece-square{
     width: 100px;
-    height: 100px;
-    float:left;    
+    height: 80px;
+    display: inline-grid;
 }
 
 .piece-square .bg-black{
