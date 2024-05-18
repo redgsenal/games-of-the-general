@@ -1,8 +1,8 @@
 .game-board{
     border: 5px solid red;
     padding: 5px;
-    width: 1200px;
-    height: 600px;
+    width: 900px;
+    height: 800px;
     margin: auto;
 }
 

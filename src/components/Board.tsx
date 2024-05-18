@@ -7,9 +7,9 @@ const Board = () => {
 
   // build the 8 x 9 squares on the board
   // start from bottom left to top right (a1...i8)
-  let index = ROWS * COLS;
-  for (let r = 0; r < ROWS; r++) {
-    for (let c = COLS; c > 0; c--) {
+  let index = 0;
+  for (let r = 0; r < ROWS; ++r) {
+    for (let c = 0; c < COLS; ++c) {
       let row = r + 1;
       let col = c + 1;
       let position = { x: row, y: col };
@@ -20,13 +20,13 @@ const Board = () => {
         name: "private",
         rankValue: -1,
         pieceValue: -1,
-        position: { x: 1, y: 1 },
+        position: { x: row, y: col },
       };
       // console.log("row:", row);
       // console.log("letter:", letter);
       const squareItem = {
         id: id,
-        index: index--,
+        index: ++index,
         position: position,
         color: color,
         border: "white",
