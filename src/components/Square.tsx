@@ -8,8 +8,8 @@ const Square = (squareProps: SquareProps) => {
       <div
         className={bgColor}
         data-index={squareProps.index}
-        data-x={squareProps.position.x}
         data-y={squareProps.position.y}
+        data-x={squareProps.position.x}
         data-id={squareProps.id}
       ></div>
     </>
