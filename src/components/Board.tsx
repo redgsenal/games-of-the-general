@@ -16,9 +16,25 @@ const Board = () => {
       let position = { x: row, y: col };
       let letter = String.fromCharCode(96 + col);
       let id = letter + "" + row; // a -> col, 1 -> row
+      let color = row < 5 ? "white" : "black";
+      let piece = {
+        name: "private",
+        rankValue: -1,
+        pieceValue: -1,
+        position: { x: 1, y: 1 },
+      };
       // console.log("row:", row);
       // console.log("letter:", letter);
-      const squareItem = { id, index, position };
+      const squareItem = {
+        id: id,
+        index: index,
+        position: position,
+        color: color,
+        border: "white",
+        width: 10,
+        height: 10,
+        piece: piece,
+      };
       const square = <Square {...squareItem} />;
       SQUARES.push(
         <div className="game-square" key={`${id}`}>
