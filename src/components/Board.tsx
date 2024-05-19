@@ -1,9 +1,9 @@
 import Square from "./Square";
 
-const Board = () => {
-  const ROWS = 8; // 8 rows
-  const COLS = 9; // 9 cols
+const ROWS = 8; // 8 rows
+const COLS = 9; // 9 cols
 
+const Board = () => {
   // build the 8 x 9 squares on the board
   // start from bottom left to top right (a1...i8)
   let index = 0;
@@ -11,11 +11,12 @@ const Board = () => {
   const ROWITEMS = [];
   const LETTERS = [];
 
+  // build column headers
   let i = 0;
-  COLHEADERS.push(<th>*</th>);
+  COLHEADERS.push(<td>*</td>);
   while (COLHEADERS.length < COLS + 1) {
     let letter = String.fromCharCode(96 + (i + 1));
-    COLHEADERS.push(<th>{letter}</th>);
+    COLHEADERS.push(<td key={`${letter}`}>{letter}</td>);
     LETTERS.push(letter);
     i++;
   }
@@ -23,7 +24,7 @@ const Board = () => {
   for (let r = 0; r < ROWS; ++r) {
     let row = ROWS - r;
     const ROWITEM = [];
-    ROWITEM.push(<td>{row}</td>);
+    ROWITEM.push(<td key={`${index}`}>{row}</td>);
     for (let c = 0; c < COLS; ++c) {
       let col = c + 1;
       let position = { x: col, y: row };
@@ -49,7 +50,7 @@ const Board = () => {
       };
       const square = <Square {...squareItem} />;
       ROWITEM.push(
-        <td>
+        <td key={`${index}`}>
           <div className="piece-square" key={`${id}`}>
             {square}
           </div>
@@ -63,8 +64,13 @@ const Board = () => {
     <>
       <div className="container">
         <table className="game-board">
-          <tr>{COLHEADERS}</tr>
-          {ROWITEMS}
+          <thead>
+            <tr>{COLHEADERS}</tr>
+          </thead>
+          <tbody>{ROWITEMS}</tbody>
+          <tfoot>
+            <tr>{COLHEADERS}</tr>
+          </tfoot>
         </table>
       </div>
     </>
