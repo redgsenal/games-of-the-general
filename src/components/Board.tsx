@@ -38,8 +38,6 @@ const Board = () => {
         pieceValue: -1,
         position: { x: col, y: row },
       };
-      // console.log("row:", row);
-      // console.log("letter:", letter);
       const squareItem = {
         id: id,
         index: ++index,
@@ -66,15 +64,17 @@ const Board = () => {
   return (
     <>
       <div className="container">
-        <table className="game-board">
-          <thead>
-            <RowItem>{COLHEADERS}</RowItem>
-          </thead>
-          <tbody>{ROWITEMS}</tbody>
-          <tfoot>
-            <RowItem>{COLHEADERS}</RowItem>
-          </tfoot>
-        </table>
+        <div className="content">
+          <table className="game-board">
+            <thead>
+              <RowItem>{COLHEADERS}</RowItem>
+            </thead>
+            <tbody>{ROWITEMS}</tbody>
+            <tfoot>
+              <RowItem>{COLHEADERS}</RowItem>
+            </tfoot>
+          </table>
+        </div>
       </div>
     </>
   );
