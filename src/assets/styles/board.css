@@ -1,40 +1,46 @@
-.game-board{
-    border: 5px solid red;
-    padding: 5px;
+.game-board {
+  border: 5px solid red;
+  padding: 5px;
 
-    position: fixed;
-    inset: 0px;
-    width: 12rem;
-    height: 5rem;
-    max-width: 100vw;
-    max-height: 100dvh;
-    margin: auto;
-    background-color: gray;
-    color: silver;
+  position: fixed;
+  inset: 0px;
+  width: 12rem;
+  height: 5rem;
+  max-width: 100vw;
+  max-height: 100dvh;
+  margin: auto;
+  background-color: gray;
+  color: silver;
 }
 .game-board tr {
-    width: 100%;
+  width: 100%;
 }
-.game-board tr:first-child, tr:last-child {
-    text-align: center;
+.game-board thead tr td,
+.game-board tfoot tr td {
+  text-align: center;
+  padding: 5px 10px;
 }
-.piece-square{
-    width: 100px;
-    height: 80px;
-    display: inline-grid;
+.game-board td {
+  padding: 0;
 }
-
-.piece-square .bg-black{
-    background-color: dimgray;
-    width: 100%;
-    height: 100%;
-    border: 1px solid white;
+.game-board td:first-child,
+.game-board td:last-child {
+  padding: 0px 10px;
 }
-
-.piece-square .bg-white{
-    background-color: #ffff;
-    width: 100%;
-    height: 100%;
-    border: 1px solid black;
+.piece-square {
+  width: 100px;
+  height: 80px;
+  display: block;
 }
-
+.piece-square .bg-black {
+  background-color: dimgray;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+}
+.piece-square .bg-white {
+  background-color: #ffff;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}

@@ -26,7 +26,7 @@ const Board = () => {
   for (let r = 0; r < ROWS; ++r) {
     let row = ROWS - r;
     const ROWITEM = [];
-    ROWITEM.push(<ColItem key={`${index}`}>{row}</ColItem>);
+    ROWITEM.push(<ColItem key={`start-${index}`}>{row}</ColItem>);
     for (let c = 0; c < COLS; ++c) {
       let col = c + 1;
       let position = { x: col, y: row };
@@ -50,16 +50,17 @@ const Board = () => {
         height: 10,
         piece: piece,
       };
-      const square = <Square key={`${id}`} {...squareItem} />;
+      const square = <Square key={`square-${id}`} {...squareItem} />;
       ROWITEM.push(
-        <ColItem key={`${index}`}>
+        <ColItem key={`piece-${index}`}>
           <div className="piece-square" key={`${id}`}>
             {square}
           </div>
         </ColItem>
       );
     }
-    ROWITEMS.push(<RowItem key={`${index}`}>{ROWITEM}</RowItem>);
+    ROWITEM.push(<ColItem key={`end-${index}`}>{row}</ColItem>);
+    ROWITEMS.push(<RowItem key={`row-${index}`}>{ROWITEM}</RowItem>);
   }
 
   return (
