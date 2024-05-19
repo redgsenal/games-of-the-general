@@ -1,3 +1,5 @@
+import ColItem from "./ColItem";
+import RowItem from "./RowItem";
 import Square from "./Square";
 
 const ROWS = 8; // 8 rows
@@ -13,10 +15,10 @@ const Board = () => {
 
   // build column headers
   let i = 0;
-  COLHEADERS.push(<td>*</td>);
+  COLHEADERS.push(<ColItem key={`${i}`}>*</ColItem>);
   while (COLHEADERS.length < COLS + 1) {
     let letter = String.fromCharCode(96 + (i + 1));
-    COLHEADERS.push(<td key={`${letter}`}>{letter}</td>);
+    COLHEADERS.push(<ColItem key={`${letter}`}>{letter}</ColItem>);
     LETTERS.push(letter);
     i++;
   }
@@ -24,7 +26,7 @@ const Board = () => {
   for (let r = 0; r < ROWS; ++r) {
     let row = ROWS - r;
     const ROWITEM = [];
-    ROWITEM.push(<td key={`${index}`}>{row}</td>);
+    ROWITEM.push(<ColItem key={`${index}`}>{row}</ColItem>);
     for (let c = 0; c < COLS; ++c) {
       let col = c + 1;
       let position = { x: col, y: row };
@@ -48,16 +50,16 @@ const Board = () => {
         height: 10,
         piece: piece,
       };
-      const square = <Square {...squareItem} />;
+      const square = <Square key={`${id}`} {...squareItem} />;
       ROWITEM.push(
-        <td key={`${index}`}>
+        <ColItem key={`${index}`}>
           <div className="piece-square" key={`${id}`}>
             {square}
           </div>
-        </td>
+        </ColItem>
       );
     }
-    ROWITEMS.push(<tr>{ROWITEM}</tr>);
+    ROWITEMS.push(<RowItem key={`${index}`}>{ROWITEM}</RowItem>);
   }
 
   return (
@@ -65,11 +67,11 @@ const Board = () => {
       <div className="container">
         <table className="game-board">
           <thead>
-            <tr>{COLHEADERS}</tr>
+            <RowItem>{COLHEADERS}</RowItem>
           </thead>
           <tbody>{ROWITEMS}</tbody>
           <tfoot>
-            <tr>{COLHEADERS}</tr>
+            <RowItem>{COLHEADERS}</RowItem>
           </tfoot>
         </table>
       </div>

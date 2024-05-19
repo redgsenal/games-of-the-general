@@ -4,7 +4,7 @@ const Square = (squareProps: SquareProps) => {
   const bgColor = "bg-" + squareProps.color;
   return (
     <>
-      {console.log("square:", squareProps)}
+      {/* {console.log("square:", squareProps)} */}
       <div
         className={bgColor}
         data-index={squareProps.index}
