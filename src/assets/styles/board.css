@@ -44,3 +44,18 @@
   height: 100%;
   border: 1px solid black;
 }
+.piece {
+  margin: auto 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.piece.white.private {
+  background-image: url(../images/ranks/white/private.png);
+}

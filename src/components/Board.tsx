@@ -34,6 +34,7 @@ const Board = () => {
       let color = row < 5 ? "white" : "black";
       let piece = {
         name: "private",
+        team: color,
         rankValue: -1,
         pieceValue: -1,
         position: { x: col, y: row },
