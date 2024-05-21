@@ -9,7 +9,7 @@
             "rankValue": 0,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/flag.png",
+            "insignia": "../images/ranks/white/flag.svg",
             "position": {
                 "x": 5,
                 "y": 1
@@ -24,7 +24,7 @@
             "rankValue": 13,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/general-5-star.png",
+            "insignia": "../images/ranks/white/gen5.svg",
             "position": {
                 "x": 5,
                 "y": 2
@@ -39,7 +39,7 @@
             "rankValue": 12,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/general-4-star.png",
+            "insignia": "../images/ranks/white/gen4.svg",
             "position": {
                 "x": 6,
                 "y": 1
@@ -54,7 +54,7 @@
             "rankValue": 11,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/general-4-star.png",
+            "insignia": "../images/ranks/white/gen3.svg",
             "position": {
                 "x": 4,
                 "y": 1
@@ -69,7 +69,7 @@
             "rankValue": 10,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/general-3-star.png",
+            "insignia": "../images/ranks/white/gen2.svg",
             "position": {
                 "x": 4,
                 "y": 2
@@ -84,7 +84,7 @@
             "rankValue": 9,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/general-1-star.png",
+            "insignia": "../images/ranks/white/gen.svg",
             "position": {
                 "x": 8,
                 "y": 3
@@ -99,7 +99,7 @@
             "rankValue": 8,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/colonel.png",
+            "insignia": "../images/ranks/white/col.svg",
             "position": {
                 "x": 7,
                 "y": 2
@@ -114,7 +114,7 @@
             "rankValue": 7,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/lieutenant-colonel.png",
+            "insignia": "../images/ranks/white/ltc.svg",
             "position": {
                 "x": 6,
                 "y": 2
@@ -129,7 +129,7 @@
             "rankValue": 6,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/major.png",
+            "insignia": "../images/ranks/white/maj.svg",
             "position": {
                 "x": 8,
                 "y": 2
@@ -144,7 +144,7 @@
             "rankValue": 5,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/captain.png",
+            "insignia": "../images/ranks/white/cpt.svg",
             "position": {
                 "x": 2,
                 "y": 2
@@ -159,7 +159,7 @@
             "rankValue": 4,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/lieutenant-1.png",
+            "insignia": "../images/ranks/white/lt1.svg",
             "position": {
                 "x": 1,
                 "y": 2
@@ -174,7 +174,7 @@
             "rankValue": 3,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/lieutenant-2.png",
+            "insignia": "../images/ranks/white/lt2.svg",
             "position": {
                 "x": 9,
                 "y": 2
@@ -189,7 +189,7 @@
             "rankValue": 2,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/sergeant.png",
+            "insignia": "../images/ranks/white/sgt.svg",
             "position": {
                 "x": 3,
                 "y": 2
@@ -204,7 +204,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/white/private.png",
+            "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 2,
                 "y": 3
@@ -219,7 +219,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/white/private.png",
+            "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 3,
                 "y": 3
@@ -234,7 +234,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/white/private.png",
+            "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 4,
                 "y": 3
@@ -249,7 +249,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/white/private.png",
+            "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 5,
                 "y": 3
@@ -264,7 +264,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/white/private.png",
+            "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 6,
                 "y": 3
@@ -279,7 +279,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/white/private.png",
+            "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 7,
                 "y": 3
@@ -294,7 +294,7 @@
             "rankValue": 100,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/spy.png",
+            "insignia": "../images/ranks/white/spy.svg",
             "position": {
                 "x": 1,
                 "y": 3
@@ -309,7 +309,7 @@
             "rankValue": 100,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/white/spy.png",
+            "insignia": "../images/ranks/white/spy.svg",
             "position": {
                 "x": 9,
                 "y": 3
@@ -324,7 +324,7 @@
             "rankValue": 0,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/flag.png",
+            "insignia": "../images/ranks/black/flag.svg",
             "position": {
                 "x": 5,
                 "y": 9
@@ -339,7 +339,7 @@
             "rankValue": 13,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/general-5-star.png",
+            "insignia": "../images/ranks/black/gen5.svg",
             "position": {
                 "x": 5,
                 "y": 8
@@ -354,7 +354,7 @@
             "rankValue": 12,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/general-4-star.png",
+            "insignia": "../images/ranks/black/gen4.svg",
             "position": {
                 "x": 6,
                 "y": 9
@@ -369,7 +369,7 @@
             "rankValue": 11,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/general-4-star.png",
+            "insignia": "../images/ranks/black/gen3.svg",
             "position": {
                 "x": 4,
                 "y": 9
@@ -384,7 +384,7 @@
             "rankValue": 10,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/general-3-star.png",
+            "insignia": "../images/ranks/black/gen2.svg",
             "position": {
                 "x": 4,
                 "y": 8
@@ -399,7 +399,7 @@
             "rankValue": 9,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/general-1-star.png",
+            "insignia": "../images/ranks/black/gen.svg",
             "position": {
                 "x": 8,
                 "y": 7
@@ -414,7 +414,7 @@
             "rankValue": 8,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/colonel.png",
+            "insignia": "../images/ranks/black/col.svg",
             "position": {
                 "x": 7,
                 "y": 8
@@ -429,7 +429,7 @@
             "rankValue": 7,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/lieutenant-colonel.png",
+            "insignia": "../images/ranks/black/ltc.svg",
             "position": {
                 "x": 6,
                 "y": 8
@@ -444,7 +444,7 @@
             "rankValue": 6,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/major.png",
+            "insignia": "../images/ranks/black/maj.svg",
             "position": {
                 "x": 8,
                 "y": 8
@@ -459,7 +459,7 @@
             "rankValue": 5,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/captain.png",
+            "insignia": "../images/ranks/black/cpt.svg",
             "position": {
                 "x": 2,
                 "y": 8
@@ -474,7 +474,7 @@
             "rankValue": 4,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/lieutenant-1.png",
+            "insignia": "../images/ranks/black/lt1.svg",
             "position": {
                 "x": 1,
                 "y": 8
@@ -489,7 +489,7 @@
             "rankValue": 3,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/lieutenant-2.png",
+            "insignia": "../images/ranks/black/lt2.svg",
             "position": {
                 "x": 9,
                 "y": 8
@@ -504,7 +504,7 @@
             "rankValue": 2,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/sergeant.png",
+            "insignia": "../images/ranks/black/sgt.svg",
             "position": {
                 "x": 3,
                 "y": 8
@@ -519,7 +519,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/black/private.png",
+            "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 2,
                 "y": 7
@@ -534,7 +534,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/black/private.png",
+            "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 3,
                 "y": 7
@@ -549,7 +549,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/black/private.png",
+            "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 4,
                 "y": 7
@@ -564,7 +564,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/black/private.png",
+            "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 5,
                 "y": 7
@@ -579,7 +579,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/black/private.png",
+            "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 6,
                 "y": 7
@@ -594,7 +594,7 @@
             "rankValue": 1,
             "pieceValue": 1,
             "isActive": false,
-            "insignia": "../images/ranks/black/private.png",
+            "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 7,
                 "y": 7
@@ -609,7 +609,7 @@
             "rankValue": 100,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/spy.png",
+            "insignia": "../images/ranks/black/spy.svg",
             "position": {
                 "x": 1,
                 "y": 7
@@ -624,7 +624,7 @@
             "rankValue": 100,
             "pieceValue": 0,
             "isActive": false,
-            "insignia": "../images/ranks/black/spy.png",
+            "insignia": "../images/ranks/black/spy.svg",
             "position": {
                 "x": 9,
                 "y": 7
