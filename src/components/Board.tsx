@@ -1,8 +1,8 @@
-import { useLoaderData} from "react-router-dom";
 import { PieceProps } from "../interfaces/PieceProps";
 import ColItem from "./ColItem";
 import RowItem from "./RowItem";
 import Square from "./Square";
+import initialPiecesJSON from "../data/initial_pieces.json";
 
 const ROWS = 8; // 8 rows
 const COLS = 9; // 9 cols
@@ -29,65 +29,15 @@ const buildColHeaders = (letters: string[]) => {
   headers.push(<ColItem key={`${i}`}>*</ColItem>);
   while (headers.length < COLS + 1) {
     let letter = letters[i];
-    headers.push(<ColItem key={`${letter}`}>{letter}</ColItem>);
+    let label = letter + " (" + (i + 1) + ")";
+    headers.push(<ColItem key={`${letter}`}>{label.toUpperCase()}</ColItem>);
     i++;
   }
   return headers;
 };
 
 const buildRankPieces = () => {
-  const job = useLoaderData();
-  const pieces: PieceProps[] = [];
-  pieces.push(
-    {
-      id: "5-star-general-1-white",
-      name: "5 Star General",
-      team: "white",
-      rankValue: 13,
-      pieceValue: 0,
-      isActive: false,
-    },
-    {
-      id: "5-star-general-2-white",
-      name: "5 Star General",
-      team: "white",
-      rankValue: 13,
-      pieceValue: 0,
-      isActive: false,
-    },
-    {
-      id: "4-star-general-1-white",
-      name: "4 Star General",
-      team: "white",
-      rankValue: 12,
-      pieceValue: 0,
-      isActive: false,
-    },
-    {
-      id: "4-star-general-2-white",
-      name: "4 Star General",
-      team: "white",
-      rankValue: 12,
-      pieceValue: 0,
-      isActive: false,
-    },
-    {
-      id: "3-star-general-1-white",
-      name: "3 Star General",
-      team: "white",
-      rankValue: 12,
-      pieceValue: 0,
-      isActive: false,
-    },
-    {
-      id: "3-star-general-2-white",
-      name: "3 Star General",
-      team: "white",
-      rankValue: 12,
-      pieceValue: 0,
-      isActive: false,
-    }
-  );
+  return initialPiecesJSON.pieces;
 };
 
 const Board = () => {
@@ -100,6 +50,7 @@ const Board = () => {
 
   // build rank pieces
   const gamePieces = buildRankPieces();
+  console.log('game pieces: ', gamePieces);
 
   // render game table
   for (let r = 0; r < ROWS; ++r) {
