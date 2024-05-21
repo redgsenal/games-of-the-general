@@ -3,6 +3,7 @@ import ColItem from "./ColItem";
 import RowItem from "./RowItem";
 import Square from "./Square";
 import initialPiecesJSON from "../data/initial_pieces.json";
+import SquarePiece from "./SquarePiece";
 
 const ROWS = 8; // 8 rows
 const COLS = 9; // 9 cols
@@ -30,7 +31,7 @@ const buildColHeaders = (letters: string[], side: string) => {
   while (headers.length < COLS + 1) {
     let letter = letters[i];
     let label = letter + " (" + (i + 1) + ")";
-    let colKey = side + '-' + letter;
+    let colKey = side + "-" + letter;
     headers.push(<ColItem key={`${colKey}`}>{label.toUpperCase()}</ColItem>);
     i++;
   }
@@ -46,13 +47,13 @@ const Board = () => {
   // start from bottom left to top right (a1...i8)
   let index = 0;
   const letters = buildLetterMarkers();
-  const colTopHeaders = buildColHeaders(letters, 'top');
-  const colBottomHeaders = buildColHeaders(letters, 'bottom');
+  const colTopHeaders = buildColHeaders(letters, "top");
+  const colBottomHeaders = buildColHeaders(letters, "bottom");
   const rowItems = [];
 
   // build rank pieces
   const gamePieces = buildRankPieces();
-  console.log('game pieces: ', gamePieces);
+  console.log("game pieces: ", gamePieces);
 
   // render game table
   for (let r = 0; r < ROWS; ++r) {
@@ -72,7 +73,7 @@ const Board = () => {
         pieceValue: -1,
         position: { x: col, y: row },
       };
-      const squareItem = {
+      const squareProps = {
         id: id,
         index: ++index,
         position: position,
@@ -83,11 +84,7 @@ const Board = () => {
         piece: piece,
       };
       colItems.push(
-        <ColItem key={`piece-${index}`}>
-          <div className="piece-square" key={`${id}`}>
-              <Square key={`square-${id}`} {...squareItem} />
-          </div>
-        </ColItem>
+        <SquarePiece key={`piece-${index}`} {...squareProps}></SquarePiece>
       );
     }
     colItems.push(<ColItem key={`end-${index}`}>{row}</ColItem>);

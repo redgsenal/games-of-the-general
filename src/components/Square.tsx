@@ -14,7 +14,7 @@ const Square = (squareProps: SquareProps) => {
       data-x={squareProps.position.x}
       data-id={squareProps.id}
     >
-      <Piece key={`${squareProps.id}`} {...pieceProps}></Piece>
+      <Piece {...pieceProps}></Piece>
     </div>
   );
 };
