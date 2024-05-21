@@ -15,6 +15,174 @@
             }
         },
         {
+            "id": "general-5-star-1-white",
+            "name": "General of the Army",
+            "rank": "5 Star General",
+            "team": "white",
+            "rankValue": 13,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/general-5-star.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "general-4-star-1-white",
+            "name": "General",
+            "rank": "4 Star General",
+            "team": "white",
+            "rankValue": 12,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/general-4-star.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "general-3-star-1-white",
+            "name": "Lieutenant General",
+            "rank": "3 Star General",
+            "team": "white",
+            "rankValue": 11,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/general-4-star.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "general-2-star-1-white",
+            "name": "Major General",
+            "rank": "2 Star General",
+            "team": "white",
+            "rankValue": 10,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/general-3-star.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "general-1-star-1-white",
+            "name": "Brigadier General",
+            "rank": "General",
+            "team": "white",
+            "rankValue": 9,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/general-1-star.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "colonel-1-white",
+            "name": "Colonel",
+            "rank": "Colonel",
+            "team": "white",
+            "rankValue": 8,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/colonel.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "lieutenant-colonel-1-white",
+            "name": "Lieutenant Colonel",
+            "rank": "Lieutenant Colonel",
+            "team": "white",
+            "rankValue": 7,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/lieutenant-colonel.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "major-1-white",
+            "name": "Major",
+            "rank": "Major",
+            "team": "white",
+            "rankValue": 6,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/major.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "captain-1-white",
+            "name": "Captain",
+            "rank": "Captain",
+            "team": "white",
+            "rankValue": 5,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/captain.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "lieutenant-1-1-white",
+            "name": "1st Lieutenant",
+            "rank": "1st Lieutenant",
+            "team": "white",
+            "rankValue": 4,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/lieutenant-1.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "lieutenant-2-1-white",
+            "name": "2nd Lieutenant",
+            "rank": "2nd Lieutenant",
+            "team": "white",
+            "rankValue": 3,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/lieutenant-2.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "sergeant-1-white",
+            "name": "Sergeant",
+            "rank": "Sergeant",
+            "team": "white",
+            "rankValue": 2,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/sergeant.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
             "id": "private-1-white",
             "name": "Private 1",
             "rank": "Private",
@@ -103,8 +271,8 @@
             "name": "Spy 1",
             "rank": "Spy",
             "team": "white",
-            "rankValue": 1,
-            "pieceValue": 1,
+            "rankValue": 100,
+            "pieceValue": 0,
             "isActive": false,
             "insignia": "../images/ranks/white/spy.png",
             "position": {
@@ -117,122 +285,10 @@
             "name": "Spy 2",
             "rank": "Spy",
             "team": "white",
-            "rankValue": 1,
-            "pieceValue": 1,
+            "rankValue": 100,
+            "pieceValue": 0,
             "isActive": false,
             "insignia": "../images/ranks/white/spy.png",
-            "position": {
-                "x": -1,
-                "y": -1
-            }
-        },
-        {
-            "id": "general-5-star-1-white",
-            "name": "General of the Army",
-            "rank": "5 Star General",            
-            "team": "white",
-            "rankValue": 13,
-            "pieceValue": 0,
-            "isActive": false,
-            "insignia": "../images/ranks/white/general-5-star.png",
-            "position": {
-                "x": -1,
-                "y": -1
-            }
-        },
-        {
-            "id": "general-4-star-1-white",
-            "name": "General",
-            "rank": "4 Star General",            
-            "team": "white",
-            "rankValue": 12,
-            "pieceValue": 0,
-            "isActive": false,
-            "insignia": "../images/ranks/white/general-4-star.png",
-            "position": {
-                "x": -1,
-                "y": -1
-            }
-        },
-        {
-            "id": "general-3-star-1-white",
-            "name": "Lieutenant General",
-            "rank": "3 Star General",
-            "team": "white",
-            "rankValue": 11,
-            "pieceValue": 0,
-            "isActive": false,
-            "insignia": "../images/ranks/white/general-4-star.png",
-            "position": {
-                "x": -1,
-                "y": -1
-            }
-        },
-        {
-            "id": "general-2-star-1-white",
-            "name": "Major General",
-            "rank": "2 Star General",
-            "team": "white",
-            "rankValue": 10,
-            "pieceValue": 0,
-            "isActive": false,
-            "insignia": "../images/ranks/white/general-3-star.png",
-            "position": {
-                "x": -1,
-                "y": -1
-            }
-        },
-        {
-            "id": "general-1-star-1-white",
-            "name": "Brigadier General",
-            "rank": "General",
-            "team": "white",
-            "rankValue": 9,
-            "pieceValue": 0,
-            "isActive": false,
-            "insignia": "../images/ranks/white/general-1-star.png",
-            "position": {
-                "x": -1,
-                "y": -1
-            }
-        },
-        {
-            "id": "sergeant-1-white",
-            "name": "Sergeant",
-            "rank": "Sergeant",
-            "team": "white",
-            "rankValue": 9,
-            "pieceValue": 0,
-            "isActive": false,
-            "insignia": "../images/ranks/white/sergeant.png",
-            "position": {
-                "x": -1,
-                "y": -1
-            }
-        },
-        {
-            "id": "Lieutenant-2-1-white",
-            "name": "2nd Lieutenant",
-            "rank": "2nd Lieutenant",
-            "team": "white",
-            "rankValue": 9,
-            "pieceValue": 0,
-            "isActive": false,
-            "insignia": "../images/ranks/white/lieutenant-2.png",
-            "position": {
-                "x": -1,
-                "y": -1
-            }
-        },
-        {
-            "id": "Lieutenant-1-1-white",
-            "name": "1st Lieutenant",
-            "rank": "1st Lieutenant",
-            "team": "white",
-            "rankValue": 9,
-            "pieceValue": 0,
-            "isActive": false,
-            "insignia": "../images/ranks/white/lieutenant-1.png",
             "position": {
                 "x": -1,
                 "y": -1

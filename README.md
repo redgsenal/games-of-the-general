@@ -35,3 +35,6 @@ export default {
 
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
+# Rank Reference
+https://en.wikipedia.org/wiki/Game_of_the_Generals
