@@ -1,3 +1,4 @@
+import { useLoaderData} from "react-router-dom";
 import { PieceProps } from "../interfaces/PieceProps";
 import ColItem from "./ColItem";
 import RowItem from "./RowItem";
@@ -35,6 +36,7 @@ const buildColHeaders = (letters: string[]) => {
 };
 
 const buildRankPieces = () => {
+  const job = useLoaderData();
   const pieces: PieceProps[] = [];
   pieces.push(
     {

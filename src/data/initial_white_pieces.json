@@ -1,0 +1,242 @@
+{
+    "pieces": [
+        {
+            "id": "flag-1-white",
+            "name": "Flag",
+            "rank": "Flag",
+            "team": "white",
+            "rankValue": 0,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/flag.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "private-1-white",
+            "name": "Private 1",
+            "rank": "Private",
+            "team": "white",
+            "rankValue": 1,
+            "pieceValue": 1,
+            "isActive": false,
+            "insignia": "../images/ranks/white/private.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "private-2-white",
+            "name": "Private 2",
+            "rank": "Private",
+            "team": "white",
+            "rankValue": 1,
+            "pieceValue": 1,
+            "isActive": false,
+            "insignia": "../images/ranks/white/private.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "private-3-white",
+            "name": "Private 3",
+            "rank": "Private",
+            "team": "white",
+            "rankValue": 1,
+            "pieceValue": 1,
+            "isActive": false,
+            "insignia": "../images/ranks/white/private.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "private-4-white",
+            "name": "Private 4",
+            "rank": "Private",
+            "team": "white",
+            "rankValue": 1,
+            "pieceValue": 1,
+            "isActive": false,
+            "insignia": "../images/ranks/white/private.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "private-5-white",
+            "name": "Private 5",
+            "rank": "Private",
+            "team": "white",
+            "rankValue": 1,
+            "pieceValue": 1,
+            "isActive": false,
+            "insignia": "../images/ranks/white/private.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "private-6-white",
+            "name": "Private 6",
+            "rank": "Private",
+            "team": "white",
+            "rankValue": 1,
+            "pieceValue": 1,
+            "isActive": false,
+            "insignia": "../images/ranks/white/private.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "spy-1-white",
+            "name": "Spy 1",
+            "rank": "Spy",
+            "team": "white",
+            "rankValue": 1,
+            "pieceValue": 1,
+            "isActive": false,
+            "insignia": "../images/ranks/white/spy.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "spy-2-white",
+            "name": "Spy 2",
+            "rank": "Spy",
+            "team": "white",
+            "rankValue": 1,
+            "pieceValue": 1,
+            "isActive": false,
+            "insignia": "../images/ranks/white/spy.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "general-5-star-1-white",
+            "name": "General of the Army",
+            "rank": "5 Star General",            
+            "team": "white",
+            "rankValue": 13,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/general-5-star.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "general-4-star-1-white",
+            "name": "General",
+            "rank": "4 Star General",            
+            "team": "white",
+            "rankValue": 12,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/general-4-star.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "general-3-star-1-white",
+            "name": "Lieutenant General",
+            "rank": "3 Star General",
+            "team": "white",
+            "rankValue": 11,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/general-4-star.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "general-2-star-1-white",
+            "name": "Major General",
+            "rank": "2 Star General",
+            "team": "white",
+            "rankValue": 10,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/general-3-star.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "general-1-star-1-white",
+            "name": "Brigadier General",
+            "rank": "General",
+            "team": "white",
+            "rankValue": 9,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/general-1-star.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "sergeant-1-white",
+            "name": "Sergeant",
+            "rank": "Sergeant",
+            "team": "white",
+            "rankValue": 9,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/sergeant.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "Lieutenant-2-1-white",
+            "name": "2nd Lieutenant",
+            "rank": "2nd Lieutenant",
+            "team": "white",
+            "rankValue": 9,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/lieutenant-2.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        },
+        {
+            "id": "Lieutenant-1-1-white",
+            "name": "1st Lieutenant",
+            "rank": "1st Lieutenant",
+            "team": "white",
+            "rankValue": 9,
+            "pieceValue": 0,
+            "isActive": false,
+            "insignia": "../images/ranks/white/lieutenant-1.png",
+            "position": {
+                "x": -1,
+                "y": -1
+            }
+        }
+    ]
+}
