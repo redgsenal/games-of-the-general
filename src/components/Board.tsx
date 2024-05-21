@@ -20,7 +20,7 @@ const buildLetterMarkers = () => {
 };
 
 // build column headers
-const buildColHeaders = (letters: string[]) => {
+const buildColHeaders = (letters: string[], side: string) => {
   if (letters.length == 0) {
     return [];
   }
@@ -30,7 +30,8 @@ const buildColHeaders = (letters: string[]) => {
   while (headers.length < COLS + 1) {
     let letter = letters[i];
     let label = letter + " (" + (i + 1) + ")";
-    headers.push(<ColItem key={`${letter}`}>{label.toUpperCase()}</ColItem>);
+    let colKey = side + '-' + letter;
+    headers.push(<ColItem key={`${colKey}`}>{label.toUpperCase()}</ColItem>);
     i++;
   }
   return headers;
@@ -45,7 +46,8 @@ const Board = () => {
   // start from bottom left to top right (a1...i8)
   let index = 0;
   const letters = buildLetterMarkers();
-  const colHeaders = buildColHeaders(letters);
+  const colTopHeaders = buildColHeaders(letters, 'top');
+  const colBottomHeaders = buildColHeaders(letters, 'bottom');
   const rowItems = [];
 
   // build rank pieces
@@ -80,11 +82,10 @@ const Board = () => {
         height: 10,
         piece: piece,
       };
-      const square = <Square key={`square-${id}`} {...squareItem} />;
       colItems.push(
         <ColItem key={`piece-${index}`}>
           <div className="piece-square" key={`${id}`}>
-            {square}
+              <Square key={`square-${id}`} {...squareItem} />
           </div>
         </ColItem>
       );
@@ -94,21 +95,19 @@ const Board = () => {
   }
 
   return (
-    <>
-      <div className="container">
-        <div className="content">
-          <table className="game-board">
-            <thead>
-              <RowItem>{colHeaders}</RowItem>
-            </thead>
-            <tbody>{rowItems}</tbody>
-            <tfoot>
-              <RowItem>{colHeaders}</RowItem>
-            </tfoot>
-          </table>
-        </div>
+    <div className="container">
+      <div className="content">
+        <table className="game-board">
+          <thead>
+            <RowItem>{colTopHeaders}</RowItem>
+          </thead>
+          <tbody>{rowItems}</tbody>
+          <tfoot>
+            <RowItem>{colBottomHeaders}</RowItem>
+          </tfoot>
+        </table>
       </div>
-    </>
+    </div>
   );
 };
 
