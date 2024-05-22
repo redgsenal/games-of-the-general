@@ -9,5 +9,5 @@ export interface SquareProps {
   border?: "white" | string;
   width?: 10 | number;
   height?: 10 | number;
-  piece?: PieceProps;
+  piece: PieceProps;
 }

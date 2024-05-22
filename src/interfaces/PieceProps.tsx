@@ -8,7 +8,7 @@ export interface PieceProps {
   team?: "black" | "white" | string;
   rankValue?: -1 | number;
   pieceValue?: -1 | number;
-  position?: PositionProps;
-  insignia?: string,
+  position: PositionProps;
+  insignia?: string;
   isActive?: false | boolean;
 }
