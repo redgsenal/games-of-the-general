@@ -10,5 +10,5 @@ export interface PieceProps {
   pieceValue?: -1 | number;
   position: PositionProps;
   insignia?: string;
-  isActive?: false | boolean;
+  isActive: boolean;
 }

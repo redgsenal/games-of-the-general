@@ -6,7 +6,7 @@ const Piece = (pieceProps: PieceProps) => {
     <>
       {console.log(pieceProps)}
       <div className={`piece ${bgTeamRank}`}>
-        <label>{pieceProps.name}</label>
+        <label>{pieceProps.rankCode}</label>
       </div>
     </>
   );

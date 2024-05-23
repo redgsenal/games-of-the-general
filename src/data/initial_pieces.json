@@ -8,7 +8,7 @@
             "team": "white",
             "rankValue": 0,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/flag.svg",
             "position": {
                 "x": 5,
@@ -23,7 +23,7 @@
             "team": "white",
             "rankValue": 13,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/gen5.svg",
             "position": {
                 "x": 5,
@@ -38,7 +38,7 @@
             "team": "white",
             "rankValue": 12,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/gen4.svg",
             "position": {
                 "x": 6,
@@ -53,7 +53,7 @@
             "team": "white",
             "rankValue": 11,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/gen3.svg",
             "position": {
                 "x": 4,
@@ -68,7 +68,7 @@
             "team": "white",
             "rankValue": 10,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/gen2.svg",
             "position": {
                 "x": 4,
@@ -83,7 +83,7 @@
             "team": "white",
             "rankValue": 9,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/gen.svg",
             "position": {
                 "x": 8,
@@ -98,7 +98,7 @@
             "team": "white",
             "rankValue": 8,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/col.svg",
             "position": {
                 "x": 7,
@@ -113,7 +113,7 @@
             "team": "white",
             "rankValue": 7,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/ltc.svg",
             "position": {
                 "x": 6,
@@ -128,7 +128,7 @@
             "team": "white",
             "rankValue": 6,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/maj.svg",
             "position": {
                 "x": 8,
@@ -143,7 +143,7 @@
             "team": "white",
             "rankValue": 5,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/cpt.svg",
             "position": {
                 "x": 2,
@@ -158,7 +158,7 @@
             "team": "white",
             "rankValue": 4,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/lt1.svg",
             "position": {
                 "x": 1,
@@ -173,7 +173,7 @@
             "team": "white",
             "rankValue": 3,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/lt2.svg",
             "position": {
                 "x": 9,
@@ -188,7 +188,7 @@
             "team": "white",
             "rankValue": 2,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/sgt.svg",
             "position": {
                 "x": 3,
@@ -203,7 +203,7 @@
             "team": "white",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 2,
@@ -218,7 +218,7 @@
             "team": "white",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 3,
@@ -233,7 +233,7 @@
             "team": "white",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 4,
@@ -248,7 +248,7 @@
             "team": "white",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 5,
@@ -263,7 +263,7 @@
             "team": "white",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 6,
@@ -278,7 +278,7 @@
             "team": "white",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/pvt.svg",
             "position": {
                 "x": 7,
@@ -293,7 +293,7 @@
             "team": "white",
             "rankValue": 100,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/spy.svg",
             "position": {
                 "x": 1,
@@ -308,7 +308,7 @@
             "team": "white",
             "rankValue": 100,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/white/spy.svg",
             "position": {
                 "x": 9,
@@ -323,7 +323,7 @@
             "team": "black",
             "rankValue": 0,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/flag.svg",
             "position": {
                 "x": 5,
@@ -338,7 +338,7 @@
             "team": "black",
             "rankValue": 13,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/gen5.svg",
             "position": {
                 "x": 5,
@@ -353,7 +353,7 @@
             "team": "black",
             "rankValue": 12,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/gen4.svg",
             "position": {
                 "x": 6,
@@ -368,7 +368,7 @@
             "team": "black",
             "rankValue": 11,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/gen3.svg",
             "position": {
                 "x": 4,
@@ -383,7 +383,7 @@
             "team": "black",
             "rankValue": 10,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/gen2.svg",
             "position": {
                 "x": 4,
@@ -398,7 +398,7 @@
             "team": "black",
             "rankValue": 9,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/gen.svg",
             "position": {
                 "x": 8,
@@ -413,7 +413,7 @@
             "team": "black",
             "rankValue": 8,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/col.svg",
             "position": {
                 "x": 7,
@@ -428,7 +428,7 @@
             "team": "black",
             "rankValue": 7,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/ltc.svg",
             "position": {
                 "x": 6,
@@ -443,7 +443,7 @@
             "team": "black",
             "rankValue": 6,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/maj.svg",
             "position": {
                 "x": 8,
@@ -458,7 +458,7 @@
             "team": "black",
             "rankValue": 5,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/cpt.svg",
             "position": {
                 "x": 2,
@@ -473,7 +473,7 @@
             "team": "black",
             "rankValue": 4,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/lt1.svg",
             "position": {
                 "x": 1,
@@ -488,7 +488,7 @@
             "team": "black",
             "rankValue": 3,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/lt2.svg",
             "position": {
                 "x": 9,
@@ -503,7 +503,7 @@
             "team": "black",
             "rankValue": 2,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/sgt.svg",
             "position": {
                 "x": 3,
@@ -518,7 +518,7 @@
             "team": "black",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 2,
@@ -533,7 +533,7 @@
             "team": "black",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 3,
@@ -548,7 +548,7 @@
             "team": "black",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 4,
@@ -563,7 +563,7 @@
             "team": "black",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 5,
@@ -578,7 +578,7 @@
             "team": "black",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 6,
@@ -593,7 +593,7 @@
             "team": "black",
             "rankValue": 1,
             "pieceValue": 1,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/pvt.svg",
             "position": {
                 "x": 7,
@@ -608,7 +608,7 @@
             "team": "black",
             "rankValue": 100,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/spy.svg",
             "position": {
                 "x": 1,
@@ -623,7 +623,7 @@
             "team": "black",
             "rankValue": 100,
             "pieceValue": 0,
-            "isActive": false,
+            "isActive": true,
             "insignia": "../images/ranks/black/spy.svg",
             "position": {
                 "x": 9,

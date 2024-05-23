@@ -5,6 +5,7 @@ import Square from "./Square";
 import initialPiecesJSON from "../data/initial_pieces.json";
 import SquarePiece from "./SquarePiece";
 import { PositionProps } from "../interfaces/PositionProps";
+import { SquareProps } from "../interfaces/SquareProps";
 
 const ROWS = 8; // 8 rows
 const COLS = 9; // 9 cols
@@ -53,8 +54,38 @@ const Board = () => {
   const rowItems = [];
 
   // build rank pieces
+  const blankInitalPiece: PieceProps = {
+    name: "",
+    rank: "",
+    rankCode: "",
+    team: "",
+    rankValue: -1,
+    pieceValue: -1,
+    position: {
+      x: -1,
+      y: -1,
+    },
+    insignia: "",
+    isActive: false,
+  };
   const gamePieces = buildRankPieces();
-  console.log("game pieces: ", gamePieces);
+
+  const initialPositionPiece = (positionProps: PositionProps) => {
+    let value: PieceProps = blankInitalPiece;
+    if (positionProps.x < 1 || positionProps.y < 1) {
+      return value;
+    }
+    gamePieces.forEach((piece: PieceProps) => {
+      let pieceX = piece.position.x;
+      let pieceY = piece.position.y;
+      let x = positionProps.x;
+      let y = positionProps.y;
+      if (pieceX == x && pieceY == y) {
+        value = piece;
+      }
+    });
+    return value;
+  };
 
   // render game table
   for (let r = 0; r < ROWS; ++r) {
@@ -69,19 +100,9 @@ const Board = () => {
       };
       const id = letters[c] + "" + row; // a -> col, 1 -> row
       const color = row < 5 ? "white" : "black";
-      let piece = {
-        id: id,
-        name: "",
-        rank: "",
-        rankCode: "",
-        team: color,
-        rankValue: -1,
-        pieceValue: -1,
-        position: position,
-        insignia: "",
-        isActive: false,
-      };
-      const squareProps = {
+      let piece: PieceProps = initialPositionPiece(position);
+      let isOccupied = piece.isActive;
+      const squareProps: SquareProps = {
         id: id,
         index: ++index,
         position: position,
@@ -90,7 +111,7 @@ const Board = () => {
         width: 10,
         height: 10,
         piece: piece,
-        isOccupied: false,
+        isOccupied: isOccupied,
       };
       colItems.push(
         <SquarePiece key={`piece-${index}`} {...squareProps}></SquarePiece>
