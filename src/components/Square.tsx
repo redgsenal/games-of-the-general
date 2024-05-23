@@ -6,15 +6,6 @@ const Square = (squareProps: SquareProps) => {
   const bgColor = "bg-" + squareProps.color;
   const pieceProps = squareProps.piece;
   console.log(squareProps);
-  const squarePosition = squareProps.position;
-  const piece = squareProps.piece && squareProps.piece;
-  const piecePosition = piece?.position;
-
-  squareProps.piece?.position;
-  const isSamePosition = squareProps.isSamePosition(
-    squarePosition,
-    piecePosition
-  );
   return (
     <div
       className={bgColor}
@@ -23,7 +14,7 @@ const Square = (squareProps: SquareProps) => {
       data-x={squareProps.position.x}
       data-id={squareProps.id}
     >
-      <Piece {...pieceProps}></Piece>
+      {pieceProps.isActive && <Piece {...pieceProps}></Piece>}
     </div>
   );
 };

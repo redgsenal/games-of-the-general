@@ -4,6 +4,7 @@ import RowItem from "./RowItem";
 import Square from "./Square";
 import initialPiecesJSON from "../data/initial_pieces.json";
 import SquarePiece from "./SquarePiece";
+import { PositionProps } from "../interfaces/PositionProps";
 
 const ROWS = 8; // 8 rows
 const COLS = 9; // 9 cols
@@ -62,16 +63,23 @@ const Board = () => {
     colItems.push(<ColItem key={`start-${index}`}>{row}</ColItem>);
     for (let c = 0; c < COLS; ++c) {
       let col = c + 1;
-      let position = { x: col, y: row };
-      let id = letters[c] + "" + row; // a -> col, 1 -> row
-      let color = row < 5 ? "white" : "black";
+      const position = {
+        x: col,
+        y: row,
+      };
+      const id = letters[c] + "" + row; // a -> col, 1 -> row
+      const color = row < 5 ? "white" : "black";
       let piece = {
         id: id,
-        name: "private",
+        name: "",
+        rank: "",
+        rankCode: "",
         team: color,
         rankValue: -1,
         pieceValue: -1,
-        position: { x: col, y: row },
+        position: position,
+        insignia: "",
+        isActive: false,
       };
       const squareProps = {
         id: id,
@@ -82,6 +90,7 @@ const Board = () => {
         width: 10,
         height: 10,
         piece: piece,
+        isOccupied: false,
       };
       colItems.push(
         <SquarePiece key={`piece-${index}`} {...squareProps}></SquarePiece>

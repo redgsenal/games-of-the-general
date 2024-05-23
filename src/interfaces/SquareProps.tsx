@@ -10,4 +10,5 @@ export interface SquareProps {
   width?: 10 | number;
   height?: 10 | number;
   piece: PieceProps;
+  isOccupied: boolean;
 }
