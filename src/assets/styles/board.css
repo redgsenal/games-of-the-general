@@ -51,16 +51,15 @@
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 95%;
+  background-size: 90%;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
+  border: 5px solid lightgray;
 }
 .piece.white {
-  border: 5px solid gray;
   color: black;
 }
 .piece.black {
-  border: 5px solid darkblue;
   color: white;
 }
