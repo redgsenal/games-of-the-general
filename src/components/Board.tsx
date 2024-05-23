@@ -1,7 +1,6 @@
 import { PieceProps } from "../interfaces/PieceProps";
 import ColItem from "./ColItem";
 import RowItem from "./RowItem";
-import Square from "./Square";
 import initialPiecesJSON from "../data/initial_pieces.json";
 import SquarePiece from "./SquarePiece";
 import { PositionProps } from "../interfaces/PositionProps";
